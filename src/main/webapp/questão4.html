@@ -27,14 +27,11 @@ section {
     display: -webkit-flex;
     display: flex;
 }
-
 /* Style the navigation menu */
 nav {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    background: #e6ffe6;
-    padding: 15px;
+    width: 100%;
+    background: url(http://www.pejinsystems.com/wp-content/uploads/2013/05/pejinsystems-1024x640-960x540.jpg) no-repeat;
+    padding: 5px;
 }
 
 /* Style the list inside the menu */
@@ -42,6 +39,30 @@ nav ul {
     list-style-type: none;
     padding: 0;
 }
+
+menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#e6ffe6;
+    list-style:none;
+}
+#menu ul li { display: inline; }
+#menu ul li a {
+    padding: 3px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:4px solid blue;
+}
+#menu ul li a:hover {
+    background-color:#e6ffe6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+
 
 /* Style the content */
 article {
@@ -78,7 +99,7 @@ footer {
 </header>
 
 <section>
-  <nav>
+  <nav id="menu">
     <ul>
       <li><a href="#Dados">Dados Pessoais</a></li>
       <li><a href="#Formação">Formação</a></li>
@@ -86,12 +107,16 @@ footer {
       <li><a href="#Redes Sociais">Redes Sociais</a></li>
       <li><a href="#contatos">Contatos</a></li>
     </ul>
+    
   </nav>
-  
-  <article>
-    <img src="https://avatars3.githubusercontent.com/u/12157007?s=400&u=2259358cb16196207a18c476ab14a56f17fcd63f&v=4"width="220" height="220">
+
+    <article>
+    
+    <img src="https://avatars3.githubusercontent.com/u/12157007?s=400&u=2259358cb16196207a18c476ab14a56f17fcd63f&v=4"width="200" height="250">
     
   </article>
+  
+  
 </section>
 <section>
 <section id="Dados"></section>
